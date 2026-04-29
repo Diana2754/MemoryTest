@@ -1,0 +1,34 @@
+.elemento-carta{
+    width: 250px; /* Tamaño fijo para cada carta */
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+      
+}
+
+.portada img,
+.contenido img{
+    width: 300px; /* Tamaño fijo para cada carta */
+    height: 150px; 
+}
+
+.contenido, 
+.portada{
+    width: 300px; /* Tamaño fijo para cada carta */
+    height: 150px; 
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .ReactFlipCard{
+    width: 90%;
+    height: 90%;
+  }
