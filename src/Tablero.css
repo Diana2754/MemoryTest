@@ -1,0 +1,9 @@
+.tablero{
+    display: flex;
+    height: 6000px;
+    width: 6000px;
+    justify-content: space-around;
+    margin: 5%;
+   
+
+}
